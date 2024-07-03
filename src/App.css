@@ -1,0 +1,68 @@
+html{
+    overflow-y: hidden;
+}
+body{
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: url("../public/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+   
+}
+.card p-4{
+   
+   
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+   
+     /* Light border to enhance the glass effect */
+    border-radius: 15px; /* Rounded corners */
+
+}
+.starta{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.primarya{
+    min-width:30vh ;
+    height: 8vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 6px;
+    margin-top: 15px;
+    font-weight: bolder;
+
+}
+h1,
+h2,
+h3,
+h5 {
+    color: aliceblue;
+    font-family: 'Helvetica Neue';
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.btn,
+.btn-dark,
+.btn-check:focus + .btn-dark,
+.btn-dark:focus,
+.btn-check:focus + .btn,
+.btn:focus {
+    border: none;
+    box-shadow: none;
+}
