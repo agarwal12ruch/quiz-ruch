@@ -19,7 +19,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 10vh;
+    margin-top: 3vh;
    
 }
 .starta{
@@ -39,7 +39,7 @@ body{
 /* Responsive styles for .container1 */
 @media (max-width: 768px) { /* Tablet and below */
     .container1 {
-        margin-top: 15vh;
+        margin-top: 10vh;
     }
     .starta {
         font-size: 30px;

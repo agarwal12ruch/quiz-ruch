@@ -19,7 +19,7 @@ const Quiz = () => {
                 {/* ? is very useful to avoid undefined errors */}
                 {question?.options?.map((item,index)=>(
                   // a new button is created everytime for each option, item is the text of the option
-                  <button key={index}    className={`option rounded btn ${corranswer === item && 'bg-success'}`} style={{margin:"7px",padding:"10px", backgroundColor:"purple",color:"white", fontFamily:"sans-serif",textAlign:"left"}} onClick={(event)=> checkAnswer(event,item)}>{item}</button>
+                  <button key={index}    className={`option  w-100 text-start btn py-2 px-3 mt-3 rounded btn ${corranswer === item && 'bg-success'}`} style={{margin:"7px",padding:"10px", backgroundColor:"purple",color:"white", fontFamily:"sans-serif",textAlign:"left"}} onClick={(event)=> checkAnswer(event,item)}>{item}</button>
                 ))}
               </div>
               {
